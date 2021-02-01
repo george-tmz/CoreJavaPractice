@@ -13,6 +13,7 @@ public class Employee {
         name = n;
         salary = s;
         hireDay = LocalDate.of(year, month, day);
+        id = 0;
     }
 
     public void setId() {
@@ -39,5 +40,9 @@ public class Employee {
     public void raiseSalary(double byPercent) {
         double raise = salary * byPercent / 100;
         salary += raise;
+    }
+    public static int getNextId()
+    {
+        return nextId;
     }
 }
