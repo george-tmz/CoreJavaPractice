@@ -7,8 +7,8 @@ import java.awt.event.ActionListener;
 import java.util.Date;
 
 public class TalkingClock {
-    private int interval;
-    private boolean beep;
+    private final int interval;
+    private final boolean beep;
 
     public TalkingClock(int interval, boolean beep) {
         this.interval = interval;
