@@ -3,6 +3,9 @@ package ch06.proxy;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
+/**
+ * 调用处理器是实现InvocationHandler接口的类对象
+ */
 class TraceHandler implements InvocationHandler {
 
     private final Object target;

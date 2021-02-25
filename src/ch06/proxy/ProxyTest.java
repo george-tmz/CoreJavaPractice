@@ -16,6 +16,6 @@ public class ProxyTest {
         }
         Integer key = new Random().nextInt(elements.length) + 1;
         int result = Arrays.binarySearch(elements, key);
-        if (result >= 0) System.out.println(elements[result]);
+//        if (result >= 0) System.out.println(elements[result]);
     }
 }
